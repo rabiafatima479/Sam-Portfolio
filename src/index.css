@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  /* Royal Theme Colors */
+  --primary-bg: #FFFFF0;
+  --main-color: #4B0082;
+  --accent-gold: #DAA520;
+  --body-text: #374151;
+
+  /* Outstanding Fonts */
+  --font-heading: 'Playfair Display', serif; /* Royal & Classic */
+  --font-body: 'Plus Jakarta Sans', sans-serif; /* Clean & Modern */
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--body-text);
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+/* Hide default cursor on desktop */
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+  a, button {
+    cursor: none;
+  }
+}
