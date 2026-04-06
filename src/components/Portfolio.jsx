@@ -10,7 +10,38 @@ import lifeImg from '../assets/life.png';
 import openingHookImg from '../assets/openinghook.png'; 
 import img1852Thumbnail from '../assets/IMG1852.png'; 
 import img2225Thumbnail from '../assets/IMG2225.png';
-import dudeMagicThumbnail from '../assets/DudeMagic.png'; // 1. Yahan import kiya
+import dudeMagicThumbnail from '../assets/DudeMagic.png';
+
+// --- PREVIOUSLY ADDED THUMBNAILS ---
+import henryTik from '../assets/henry.png';
+import henrySwag from '../assets/henry1.png';
+import halloweenImg from '../assets/hallowen.png';
+import brandImg from '../assets/brand.png';
+import henryBFG from '../assets/henryBF.png';
+import henryC from '../assets/henryCaught.png';
+import henryTrangG from '../assets/HenryTrang.png';
+import henryTrangMain from '../assets/Henry BF Trang Trang.png';
+import henryOk from '../assets/Henry BF OK Song.png';
+import henryMika from '../assets/Henry BF Mikanika.png';
+import kronosLeone from '../assets/Kronos vs Leone.png';
+import leoneLonis from '../assets/Leone vs Lonis.png';
+import animeHook from '../assets/Anime Hook Sale.png';
+import kidsHook from '../assets/Kids Hook Sale.png';
+
+// --- NEWLY ADDED THUMBNAILS ---
+import brandoHookThumb from '../assets/Brando Hook Sales.png';
+import ldragoPegasusThumb from '../assets/L-Drago vs Pegasus.png';
+import textHookThumb from '../assets/Text Hook Sales.png';
+import brandoUnbox50Thumb from '../assets/Brando Unboxing 50s.png';
+import brandoUnbox15Thumb from '../assets/Brando Unboxing 15s.png';
+import pegasusBullThumb from '../assets/Pegasus vs Bull.png';
+import galaxyPegasusThumb from '../assets/Galaxy Pegasus vs Big Bang.png';
+import nemesisPegasusThumb from '../assets/Nemesis vs Pegasus.png';
+import halloweenAnimThumb from '../assets/Halloween Animation.png';
+import brandoGiveaway2Thumb from '../assets/Brando Giveaway 2.png';
+import kidsTransitionThumb from '../assets/Kids Transition BF.png';
+import chrisBattleThumb from '../assets/Chris Battle.png';
+import kidsBeybladeThumb from '../assets/Kids Playing Beyblade.png';
 
 // --- VIDEO ASSETS ---
 import v1566 from '../assets/IMG_1566.MOV';
@@ -32,56 +63,49 @@ const Portfolio = () => {
   };
 
   const projects = [
-    // --- DRIVE VIDEOS WITH CUSTOM THUMBNAILS ---
-    { 
-      id: 1, 
-      category: 'video', 
-      title: 'Viral Reel Edit', 
-      type: 'Video Editing', 
-      driveId: '1sXXJQJBP-_QIOFWUIvOFzRcaDtO8-Z62',
-      localImg: lifeImg 
-    },
-    { 
-      id: 2, 
-      category: 'video', 
-      title: 'Cinematic Motion', 
-      type: 'Video Editing', 
-      driveId: '1u8EzJNcXYt4lyYmACMpGEGBF3zsGxswe',
-      localImg: openingHookImg 
-    },
+    { id: 1, category: 'video', title: 'Viral Reel Edit', type: 'Video Editing', driveId: '1sXXJQJBP-_QIOFWUIvOFzRcaDtO8-Z62', localImg: lifeImg },
+    { id: 2, category: 'video', title: 'Cinematic Motion', type: 'Video Editing', driveId: '1u8EzJNcXYt4lyYmACMpGEGBF3zsGxswe', localImg: openingHookImg },
+
+    // --- DRIVE VIDEOS WITH MAPPED THUMBNAILS ---
+    { id: 201, category: 'video', title: 'Henry Black Friday (Tik)', type: 'Short Form', driveId: '16xFfKt5adV0oushYwEWc2bSpfCegBDsE', localImg: henryTik },
+    { id: 202, category: 'video', title: 'Henry Black Friday (Swag)', type: 'Short Form', driveId: '1N-aJNVcdIJy3s2otZilwTJPMCxrHhhJc', localImg: henrySwag },
+    { id: 203, category: 'video', title: 'Halloween Sale Transition', type: 'Transition Video', driveId: '16bSc4NskgnP20o3YAAltaGkO8UjdxYiN', localImg: halloweenImg },
+    { id: 204, category: 'video', title: 'Brando Giveaway #1', type: 'Video Editing', driveId: '1wctYPvOPCVznpc4xa_tqELbYSpwpSSHn', localImg: brandImg },
+    { id: 205, category: 'video', title: 'Henry BF Caught Giveaway', type: 'Short Form', driveId: '1jTLtJ0ukKu4e2V-iqYCUjzNJQaPcPl1R', localImg: henryBFG },
+    { id: 206, category: 'video', title: 'Henry BF Caught', type: 'Short Form', driveId: '1Ew3j_Op-z39mZRPAoP4WCHADuyys571Q', localImg: henryC },
+    { id: 207, category: 'video', title: 'Henry BF Trang Trang Giveaway', type: 'Short Form', driveId: '1cQatE3EoNWex6i7lwdk7H21mNz-OGR7y', localImg: henryTrangG },
+    { id: 208, category: 'video', title: 'Henry BF Trang Trang', type: 'Short Form', driveId: '1H9eShHC4apYk1XKv2q3sG8ME6_dL6lGh', localImg: henryTrangMain },
+    { id: 209, category: 'video', title: 'Henry BF OK Song', type: 'Short Form', driveId: '1tgItPbWaQADUQavlz958YMN-euFCmhCj', localImg: henryOk },
+    { id: 210, category: 'video', title: 'Henry BF Mikanika', type: 'Short Form', driveId: '1NnPRS_et6oaNGFvbgd7XfQEUCplhGnKJ', localImg: henryMika },
+    { id: 211, category: 'video', title: 'Kronos vs Leone', type: 'Battle Video', driveId: '1tlAkEWuwkduYjpHAAzC9RVnT5KTTLiGk', localImg: kronosLeone },
+    { id: 212, category: 'video', title: 'Leone vs Lonis', type: 'Battle Video', driveId: '12hUg71egcs4RGIJZZ8vuhUYOEp5ccolf', localImg: leoneLonis },
+    { id: 213, category: 'video', title: 'Anime Hook Sale', type: 'Sales Video', driveId: '1nIArOCvezHgjl7srYNpg52kD-wdSEh3T', localImg: animeHook },
+    { id: 214, category: 'video', title: 'Kids Hook Sale', type: 'Sales Video', driveId: '1oqgNGd2NUPtCjTGxYmzOhc96oi1y7834', localImg: kidsHook },
+    { id: 215, category: 'video', title: 'Brando Hook Sales', type: 'Sales Video', driveId: '1YMkE3EJRDNuXlsp6oAnLtP93Pg7iJf82', localImg: brandoHookThumb },
+    { id: 216, category: 'video', title: 'L-Drago vs Pegasus', type: 'Battle Video', driveId: '1Wj7hXUtY7weKtCKNBYnrKxGslBOG9FEU', localImg: ldragoPegasusThumb },
+    { id: 217, category: 'video', title: 'Text Hook Sales', type: 'Sales Video', driveId: '1Z1u5Vyug5MHSPbe9GxvkdniNCrV0H7Yz', localImg: textHookThumb },
+    { id: 218, category: 'video', title: 'Brando Unboxing (50s)', type: 'Product Review', driveId: '1hbl1bVmZvB7p2MvfJ7KVkUhF_SJfW6KI', localImg: brandoUnbox50Thumb },
+    { id: 219, category: 'video', title: 'Brando Unboxing (15s)', type: 'Product Review', driveId: '1UUK-tweINaIGIq77lmW7ByjBF6YJNj3p', localImg: brandoUnbox15Thumb },
+    { id: 220, category: 'video', title: 'Pegasus vs Bull', type: 'Battle Video', driveId: '1d3Z0GbHLi1AhR9mJ-bey1PFxmFgPyuhD', localImg: pegasusBullThumb },
+    { id: 221, category: 'video', title: 'Galaxy Pegasus vs Big Bang', type: 'Battle Video', driveId: '1zdwBR3HBL88USR_Lnjy-6ZXAHSUmgWEc', localImg: galaxyPegasusThumb },
+    { id: 222, category: 'video', title: 'Nemesis vs Pegasus', type: 'Battle Video', driveId: '1zu_wywBcSDzLUAcXT4xoaEnEOpfJrjC8', localImg: nemesisPegasusThumb },
+    { id: 223, category: 'design', title: 'Halloween Animation', type: 'Post', driveId: '1bDtRKUy8BcCFsei7vEBU9PGVKv4GjFf7', localImg: halloweenAnimThumb },
+    { id: 224, category: 'video', title: 'Brando Giveaway #2', type: 'Video Editing', driveId: '17SvGVr2fW9OzXfMYQiTFe5XN7cce1YLQ', localImg: brandoGiveaway2Thumb },
+    { id: 225, category: 'video', title: 'Kids Transition (BF)', type: 'Video Editing', driveId: '1_Hpb4hgZNb4EXs9RfB5rgbE1dtIOQMcc', localImg: kidsTransitionThumb },
+    { id: 226, category: 'video', title: 'Chris Battle', type: 'Battle Video', driveId: '11xTaym1TsRx587YkCY73SIE_fZn3mhme', localImg: chrisBattleThumb },
+    { id: 227, category: 'video', title: 'Kids Playing Beyblade', type: 'Voiceover Video', driveId: '1fihjRdmGXbYzvm79kfZflRbFbrBm_fZI', localImg: kidsBeybladeThumb },
 
     // --- LOCAL VIDEOS ---
     { id: 101, category: 'video', title: 'Creative Cut 1566', type: 'Video Editing', localVideo: v1566 },
-    { 
-      id: 102, 
-      category: 'video', 
-      title: 'Cinematic Shot 1852', 
-      type: 'Video Editing', 
-      localVideo: v1852,
-      localImg: img1852Thumbnail 
-    },
+    { id: 102, category: 'video', title: 'Cinematic Shot 1852', type: 'Video Editing', localVideo: v1852, localImg: img1852Thumbnail },
     { id: 103, category: 'video', title: 'Dynamic Motion 1876', type: 'Video Editing', localVideo: v1876 },
     { id: 104, category: 'video', title: 'VFX Showcase 2078', type: 'Video Editing', localVideo: v2078 },
-    { 
-      id: 105, 
-      category: 'video', 
-      title: 'Action Reel 2225', 
-      type: 'Video Editing', 
-      localVideo: v2225,
-      localImg: img2225Thumbnail 
-    },
+    { id: 105, category: 'video', title: 'Action Reel 2225', type: 'Video Editing', localVideo: v2225, localImg: img2225Thumbnail },
     { id: 106, category: 'video', title: 'Pheobe Special', type: 'Video Editing', localVideo: vPheobe },
     { id: 107, category: 'video', title: 'Premium Render', type: 'Video Editing', localVideo: vLv },
     
     // --- DESIGN & PHOTOS ---
-    { 
-      id: 7, 
-      category: 'design', 
-      title: 'Brand Poster', 
-      type: 'Design', 
-      driveId: '1ajyOFBl2rLSrQtn4aG0yCXYAOmCrxJGP',
-      localImg: dudeMagicThumbnail // 2. Yahan thumbnail apply kardi
-    },
+    { id: 7, category: 'design', title: 'Brand Poster', type: 'Design', driveId: '1ajyOFBl2rLSrQtn4aG0yCXYAOmCrxJGP', localImg: dudeMagicThumbnail },
     { id: 10, category: 'photo', title: 'Citrus Champ', type: 'Photography', localImg: citrusImg },
     { id: 11, category: 'photo', title: 'Lavender Legend', type: 'Render', localImg: lavenderImg },
     { id: 12, category: 'photo', title: 'Petal Power', type: 'Render', localImg: petalImg },
@@ -94,10 +118,6 @@ const Portfolio = () => {
       
       {/* Background Shapes */}
       <motion.div animate={{ x: [0, 50, 0], y: [0, 100, 0], rotate: 360 }} transition={{ duration: 25, repeat: Infinity, ease: "linear" }} className="absolute -top-20 -left-20 w-[500px] h-[500px] bg-[#DAA520]/10 rounded-full blur-[120px] z-0" />
-      <motion.div animate={{ rotate: [0, 90, 180, 270, 360], scale: [1, 1.1, 1] }} transition={{ duration: 15, repeat: Infinity }} className="absolute top-1/4 right-10 w-40 h-40 border-4 border-[#4B0082]/10 rounded-[2rem] z-0 hidden md:block" />
-      <motion.div animate={{ y: [0, -100, 0], x: [0, 50, 0] }} transition={{ duration: 18, repeat: Infinity }} style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }} className="absolute bottom-1/4 left-10 w-32 h-32 bg-[#4B0082]/5 z-0" />
-      <motion.div animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.6, 0.3] }} transition={{ duration: 10, repeat: Infinity }} className="absolute -bottom-40 -right-20 w-[600px] h-[600px] bg-[#4B0082]/10 rounded-full blur-[150px] z-0" />
-
       <div className="max-w-7xl mx-auto px-8 relative z-10">
         
         {/* Header & Filters */}
@@ -128,30 +148,22 @@ const Portfolio = () => {
                 className="group relative h-[520px] rounded-[4rem] overflow-hidden cursor-pointer bg-neutral-900 shadow-2xl border border-white/5"
                 onClick={() => setSelectedContent(item)}
               >
-                {/* Thumbnail Display Logic */}
-                {item.localVideo ? (
-                  <>
-                    {item.localImg ? (
-                      <img src={item.localImg} className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 group-hover:opacity-40 transition-all duration-1000" alt={item.title} />
-                    ) : (
-                      <video className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-30 transition-all" muted loop onMouseEnter={e => e.target.play()} onMouseLeave={e => e.target.pause()}>
+                {/* Image Display */}
+                {item.localImg ? (
+                    <img src={item.localImg} className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 group-hover:opacity-40 transition-all duration-1000" alt={item.title} />
+                ) : item.localVideo ? (
+                    <video className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-30 transition-all" muted loop onMouseEnter={e => e.target.play()} onMouseLeave={e => e.target.pause()}>
                         <source src={item.localVideo} type="video/mp4" />
-                      </video>
-                    )}
-                  </>
+                    </video>
                 ) : (
-                  <img 
-                    src={item.localImg || `https://googleusercontent.com/profile/picture/2${item.driveId}=s800`} 
-                    className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 group-hover:opacity-40 transition-all duration-1000" 
-                    alt={item.title} 
-                  />
+                    <div className="absolute inset-0 w-full h-full bg-[#4B0082]/20 flex items-center justify-center text-white/20 italic">Video Preview</div>
                 )}
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#4B0082] via-[#4B0082]/20 to-transparent" />
 
                 <div className="absolute inset-0 p-12 flex flex-col justify-end transform transition-transform duration-500 group-hover:translate-y-[-15px]">
                   <div className="w-16 h-16 bg-[#DAA520] rounded-[1.5rem] flex items-center justify-center mb-6 shadow-2xl rotate-12 group-hover:rotate-0 transition-all duration-700">
-                    {iconMap[item.category]}
+                    {iconMap[item.category] || iconMap.video}
                   </div>
                   <span className="text-[#DAA520] text-[11px] font-black tracking-[0.4em] uppercase mb-2">{item.type}</span>
                   <h4 className="text-white text-3xl font-['Playfair_Display'] font-black leading-tight tracking-tight">{item.title}</h4>
