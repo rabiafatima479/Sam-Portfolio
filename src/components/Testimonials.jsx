@@ -59,6 +59,16 @@ const Testimonials = () => {
         transition={{ duration: 10, repeat: Infinity }}
         className="absolute bottom-20 right-[10%] w-40 h-40 bg-[#4B0082] rounded-full blur-[80px] z-0"
       />
+      
+        <motion.div 
+        animate={{ rotate: 360, y: [0, 20, 0] }}
+        transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+        className="absolute top-20 right-[15%] opacity-20 z-0"
+      >
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+          <path d="M50 5 L95 85 L5 85 Z" stroke="#DAA520" strokeWidth="2" strokeLinejoin="round" />
+        </svg>
+      </motion.div>
 
       <motion.div 
         animate={{ x: [0, 30, 0] }}

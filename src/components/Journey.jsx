@@ -57,6 +57,7 @@ const Journey = () => {
             The Journey<span className="text-[#DAA520]">.</span>
           </motion.h3>
         </div>
+   
 
         <div className="relative">
           {/* Main Vertical Line */}
@@ -116,7 +117,9 @@ const Journey = () => {
                 </motion.div>
 
                 <div className="hidden md:block w-[45%]"></div>
+                
               </motion.div>
+              
             ))}
           </div>
         </div>
