@@ -32,7 +32,10 @@ const Navbar = () => {
     { name: 'Home', href: '#' },
     { name: 'About', href: '#about' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Ads', href: '#ads' },          // Naya Link
+    { name: 'Long Form', href: '#long-form' },
+    { name: 'Contact', href: '#contact' } // Naya Link
+    
   ];
 
   return (

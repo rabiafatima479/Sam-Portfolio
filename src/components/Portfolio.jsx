@@ -44,9 +44,7 @@ import chrisBattleThumb from '../assets/Chris Battle.png';
 import kidsBeybladeThumb from '../assets/Kids Playing Beyblade.png';
 
 // --- VIDEO ASSETS ---
-import v1566 from '../assets/IMG_1566.MOV';
-import v1852 from '../assets/IMG_1852.MOV';
-import v1876 from '../assets/IMG_1876.MOV';
+
 import v2078 from '../assets/IMG_2078.MOV';
 import v2225 from '../assets/IMG_2225.MOV';
 import vPheobe from '../assets/pheobe4.mp4';
@@ -67,11 +65,7 @@ const Portfolio = () => {
     { id: 2, category: 'video', title: 'Cinematic Motion', type: 'Video Editing', driveId: '1u8EzJNcXYt4lyYmACMpGEGBF3zsGxswe', localImg: openingHookImg },
 
     // --- DRIVE VIDEOS WITH MAPPED THUMBNAILS ---
-    { id: 201, category: 'video', title: 'Henry Black Friday (Tik)', type: 'Short Form', driveId: '16xFfKt5adV0oushYwEWc2bSpfCegBDsE', localImg: henryTik },
-    { id: 202, category: 'video', title: 'Henry Black Friday (Swag)', type: 'Short Form', driveId: '1N-aJNVcdIJy3s2otZilwTJPMCxrHhhJc', localImg: henrySwag },
-    { id: 203, category: 'video', title: 'Halloween Sale Transition', type: 'Transition Video', driveId: '16bSc4NskgnP20o3YAAltaGkO8UjdxYiN', localImg: halloweenImg },
-    { id: 204, category: 'video', title: 'Brando Giveaway #1', type: 'Video Editing', driveId: '1wctYPvOPCVznpc4xa_tqELbYSpwpSSHn', localImg: brandImg },
-    { id: 205, category: 'video', title: 'Henry BF Caught Giveaway', type: 'Short Form', driveId: '1jTLtJ0ukKu4e2V-iqYCUjzNJQaPcPl1R', localImg: henryBFG },
+   
     { id: 206, category: 'video', title: 'Henry BF Caught', type: 'Short Form', driveId: '1Ew3j_Op-z39mZRPAoP4WCHADuyys571Q', localImg: henryC },
     { id: 207, category: 'video', title: 'Henry BF Trang Trang Giveaway', type: 'Short Form', driveId: '1cQatE3EoNWex6i7lwdk7H21mNz-OGR7y', localImg: henryTrangG },
     { id: 208, category: 'video', title: 'Henry BF Trang Trang', type: 'Short Form', driveId: '1H9eShHC4apYk1XKv2q3sG8ME6_dL6lGh', localImg: henryTrangMain },
@@ -96,10 +90,7 @@ const Portfolio = () => {
     { id: 227, category: 'video', title: 'Kids Playing Beyblade', type: 'Voiceover Video', driveId: '1fihjRdmGXbYzvm79kfZflRbFbrBm_fZI', localImg: kidsBeybladeThumb },
 
     // --- LOCAL VIDEOS ---
-    { id: 101, category: 'video', title: 'Creative Cut 1566', type: 'Video Editing', localVideo: v1566 },
-    { id: 102, category: 'video', title: 'Cinematic Shot 1852', type: 'Video Editing', localVideo: v1852, localImg: img1852Thumbnail },
-    { id: 103, category: 'video', title: 'Dynamic Motion 1876', type: 'Video Editing', localVideo: v1876 },
-    { id: 104, category: 'video', title: 'VFX Showcase 2078', type: 'Video Editing', localVideo: v2078 },
+     { id: 104, category: 'video', title: 'VFX Showcase 2078', type: 'Video Editing', localVideo: v2078 },
     { id: 105, category: 'video', title: 'Action Reel 2225', type: 'Video Editing', localVideo: v2225, localImg: img2225Thumbnail },
     { id: 106, category: 'video', title: 'Pheobe Special', type: 'Video Editing', localVideo: vPheobe },
     { id: 107, category: 'video', title: 'Premium Render', type: 'Video Editing', localVideo: vLv },
