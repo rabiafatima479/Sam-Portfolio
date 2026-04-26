@@ -7,7 +7,7 @@ import sichook1 from '../assets/longs/27sichook1.mov';
 import sicshort1 from '../assets/longs/27sicshort1horizontal.mp4'; // Note: check extension if error
 import ringads1 from '../assets/longs/ringads1.mp4';
 // import mrCurio from '../assets/longs/ring118.mov';
-import ringads2 from '../assets/longs/ringads2.mov';
+import ringads2 from '../assets/longs/ringads2.mp4';
 // import sarim from '../assets/longs/sarim.mov';
 
 const LongVideos = ({ setSelectedContent }) => {
