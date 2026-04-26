@@ -33,6 +33,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Ads', href: '#ads' },          // Naya Link
+    { name: 'Long Form', href: '#long-form' },
     { name: 'Contact', href: '#contact' } // Naya Link
     
   ];

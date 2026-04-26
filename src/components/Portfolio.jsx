@@ -43,13 +43,6 @@ import kidsTransitionThumb from '../assets/Kids Transition BF.png';
 import chrisBattleThumb from '../assets/Chris Battle.png';
 import kidsBeybladeThumb from '../assets/Kids Playing Beyblade.png';
 
-// --- VIDEO ASSETS ---
-
-import v2078 from '../assets/IMG_2078.MOV';
-import v2225 from '../assets/IMG_2225.MOV';
-import vPheobe from '../assets/pheobe4.mp4';
-import vLv from '../assets/lv_7353990464778833170_20251025051223.mp4';
-
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
   const [selectedContent, setSelectedContent] = useState(null);
@@ -89,12 +82,7 @@ const Portfolio = () => {
     { id: 226, category: 'video', title: 'Chris Battle', type: 'Battle Video', driveId: '11xTaym1TsRx587YkCY73SIE_fZn3mhme', localImg: chrisBattleThumb },
     { id: 227, category: 'video', title: 'Kids Playing Beyblade', type: 'Voiceover Video', driveId: '1fihjRdmGXbYzvm79kfZflRbFbrBm_fZI', localImg: kidsBeybladeThumb },
 
-    // --- LOCAL VIDEOS ---
-     { id: 104, category: 'video', title: 'VFX Showcase 2078', type: 'Video Editing', localVideo: v2078 },
-    { id: 105, category: 'video', title: 'Action Reel 2225', type: 'Video Editing', localVideo: v2225, localImg: img2225Thumbnail },
-    { id: 106, category: 'video', title: 'Pheobe Special', type: 'Video Editing', localVideo: vPheobe },
-    { id: 107, category: 'video', title: 'Premium Render', type: 'Video Editing', localVideo: vLv },
-    
+   
     // --- DESIGN & PHOTOS ---
     { id: 7, category: 'design', title: 'Brand Poster', type: 'Design', driveId: '1ajyOFBl2rLSrQtn4aG0yCXYAOmCrxJGP', localImg: dudeMagicThumbnail },
     { id: 10, category: 'photo', title: 'Citrus Champ', type: 'Photography', localImg: citrusImg },

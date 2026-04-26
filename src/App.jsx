@@ -29,6 +29,7 @@ function App() {
       {/* Teeno sections mein state pass kar di */}
       <Portfolio setSelectedContent={setSelectedContent} />
       <AdsVideos setSelectedContent={setSelectedContent} />
+      <LongVideos setSelectedContent={setSelectedContent} /> {/* <--- Naya Section */}
       
       <Testimonials />
       <ClientRecord />

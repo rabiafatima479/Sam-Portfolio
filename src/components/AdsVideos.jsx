@@ -6,9 +6,6 @@ import { Play } from 'lucide-react';
 import buy4get4temp3 from '../assets/ads/buy4get4temp3.mov';
 import buy4get4video3square from '../assets/ads/buy4get4video3square.mov';
 import buy4get4video4 from '../assets/ads/buy4get4video4.mov';
-import buy4get4video4square from '../assets/ads/buy4get4video4square.mov';
-import buy4get4video5 from '../assets/ads/buy4get4video5.mov';
-import buy4get4video5square from '../assets/ads/buy4get4video5square.mov';
 import freestadium1 from '../assets/ads/freestadium1.mp4';
 import freestadium2 from '../assets/ads/freestadium2.mov';
 import freestadium03 from '../assets/ads/freestadium03.mov';
@@ -23,9 +20,6 @@ const AdsVideos = ({ setSelectedContent }) => {
     { id: 301, title: 'Buy 4 Get 4 Temp 3', localVideo: buy4get4temp3, type: 'Product Ad' },
     { id: 302, title: 'Buy 4 Get 4 Video 3 Square', localVideo: buy4get4video3square, type: 'Social Media Ad' },
     { id: 303, title: 'Buy 4 Get 4 Video 4', localVideo: buy4get4video4, type: 'Commercial' },
-    { id: 304, title: 'Buy 4 Get 4 Video 4 Square', localVideo: buy4get4video4square, type: 'Social Media Ad' },
-    { id: 305, title: 'Buy 4 Get 4 Video 5', localVideo: buy4get4video5, type: 'Commercial' },
-    { id: 306, title: 'Buy 4 Get 4 Video 5 Square', localVideo: buy4get4video5square, type: 'Social Media Ad' },
     { id: 307, title: 'Free Stadium V1', localVideo: freestadium1, type: 'Product Promo' },
     { id: 308, title: 'Free Stadium V2', localVideo: freestadium2, type: 'Product Promo' },
     { id: 309, title: 'Free Stadium 03', localVideo: freestadium03, type: 'Product Promo' },
