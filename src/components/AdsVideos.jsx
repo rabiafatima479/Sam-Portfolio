@@ -4,25 +4,25 @@ import { Play } from 'lucide-react';
 
 // --- VIDEO ASSETS IMPORTS ---
 import buy4get4temp3 from '../assets/ads/buy4get4temp3.mov';
-import buy4get4video3square from '../assets/ads/buy4get4video3square.mov';
+// import buy4get4video3square from '../assets/ads/buy4get4video3square.mov';
 import buy4get4video4 from '../assets/ads/buy4get4video4.mov';
-import freestadium1 from '../assets/ads/freestadium1.mp4';
+// import freestadium1 from '../assets/ads/freestadium1.mp4';
 import freestadium2 from '../assets/ads/freestadium2.mov';
-import freestadium03 from '../assets/ads/freestadium03.mov';
+// import freestadium03 from '../assets/ads/freestadium03.mov';
 
 // --- NEW THUMBNAIL IMPORTS ---
-import thumbHook1 from '../assets/ads/thumbirvinhook1.png';
-import thumbUnboxing from '../assets/ads/thumbirvinunboxing.png';
-import thumbSquareFrame from '../assets/ads/thumbsquareframe.png';
+// import thumbHook1 from '../assets/ads/thumbirvinhook1.png';
+// import thumbUnboxing from '../assets/ads/thumbirvinunboxing.png';
+// import thumbSquareFrame from '../assets/ads/thumbsquareframe.png';
 
 const AdsVideos = ({ setSelectedContent }) => {
   const adsData = [
     { id: 301, title: 'Buy 4 Get 4 Temp 3', localVideo: buy4get4temp3, type: 'Product Ad' },
-    { id: 302, title: 'Buy 4 Get 4 Video 3 Square', localVideo: buy4get4video3square, type: 'Social Media Ad' },
+    // { id: 302, title: 'Buy 4 Get 4 Video 3 Square', localVideo: buy4get4video3square, type: 'Social Media Ad' },
     { id: 303, title: 'Buy 4 Get 4 Video 4', localVideo: buy4get4video4, type: 'Commercial' },
-    { id: 307, title: 'Free Stadium V1', localVideo: freestadium1, type: 'Product Promo' },
+    // { id: 307, title: 'Free Stadium V1', localVideo: freestadium1, type: 'Product Promo' },
     { id: 308, title: 'Free Stadium V2', localVideo: freestadium2, type: 'Product Promo' },
-    { id: 309, title: 'Free Stadium 03', localVideo: freestadium03, type: 'Product Promo' },
+    // { id: 309, title: 'Free Stadium 03', localVideo: freestadium03, type: 'Product Promo' },
   ];
 
   return (

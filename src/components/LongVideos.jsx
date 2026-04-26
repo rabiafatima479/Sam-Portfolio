@@ -6,16 +6,16 @@ import { Play, Clock, Monitor } from 'lucide-react';
 import sichook1 from '../assets/longs/27sichook1.mov';
 import sicshort1 from '../assets/longs/27sicshort1horizontal.mp4'; // Note: check extension if error
 import ringads1 from '../assets/longs/ringads1.mp4';
-import mrCurio from '../assets/longs/ring118.mov';
+// import mrCurio from '../assets/longs/ring118.mov';
 import ringads2 from '../assets/longs/ringads2.mov';
-import sarim from '../assets/longs/sarim.mov';
+// import sarim from '../assets/longs/sarim.mov';
 
 const LongVideos = ({ setSelectedContent }) => {
   const longVideosData = [
     { id: 502, title: 'The Hook Series: Part 1', localVideo: sichook1, type: 'Production', duration: '02:45', quality: 'HD' },
    { id: 506, title: 'SIC Horizontal Short', localVideo: sicshort1, type: 'Short Form', duration: '00:55', quality: 'HD' },
-    { id: 507, title: 'Mr. Curio: Masterclass', localVideo: mrCurio, type: 'Storytelling', duration: '10:15', quality: '4K' },
-    { id: 508, title: 'Sarim Special Cut', localVideo: sarim, type: 'Documentary', duration: '06:15', quality: '4K' },
+    // { id: 507, title: 'Mr. Curio: Masterclass', localVideo: mrCurio, type: 'Storytelling', duration: '10:15', quality: '4K' },
+    // { id: 508, title: 'Sarim Special Cut', localVideo: sarim, type: 'Documentary', duration: '06:15', quality: '4K' },
       { id: 512, title: 'Ring Advertisement 01', localVideo: ringads1, type: 'Commercial', duration: '01:00', quality: '4K' },
     { id: 513, title: 'Ring Advertisement 02', localVideo: ringads2, type: 'Commercial', duration: '01:15', quality: 'HD' },
      ];

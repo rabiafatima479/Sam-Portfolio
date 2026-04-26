@@ -13,11 +13,11 @@ import img2225Thumbnail from '../assets/IMG2225.png';
 import dudeMagicThumbnail from '../assets/DudeMagic.png';
 
 // --- PREVIOUSLY ADDED THUMBNAILS ---
-import henryTik from '../assets/henry.png';
-import henrySwag from '../assets/henry1.png';
-import halloweenImg from '../assets/hallowen.png';
-import brandImg from '../assets/brand.png';
-import henryBFG from '../assets/henryBF.png';
+// import henryTik from '../assets/henry.png';
+// import henrySwag from '../assets/henry1.png';
+// import halloweenImg from '../assets/hallowen.png';
+// import brandImg from '../assets/brand.png';
+// import henryBFG from '../assets/henryBF.png';
 import henryC from '../assets/henryCaught.png';
 import henryTrangG from '../assets/HenryTrang.png';
 import henryTrangMain from '../assets/Henry BF Trang Trang.png';
