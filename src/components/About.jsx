@@ -25,7 +25,7 @@ const About = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-[#DAA520] rounded-tl-3xl"></div>
             
             <div className="relative bg-[#4B0082]/5 border border-[#4B0082]/10 p-8 md:p-12 rounded-3xl backdrop-blur-sm shadow-xl transition-all duration-500 group-hover:shadow-[#4B0082]/10">
-              <h3 className="font-['Playfair_Display'] text-6xl font-black text-[#4B0082] mb-2">5+</h3>
+              <h3 className="font-['Playfair_Display'] text-6xl font-black text-[#4B0082] mb-2">4+</h3>
               <p className="text-[#DAA520] font-black tracking-[0.3em] uppercase text-[10px] mb-8">
                 Years of Digital Craft
               </p>
