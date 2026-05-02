@@ -14,6 +14,7 @@ import ClientRecord from './components/ClientRecord';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
+import CelebrityEdits from './components/CelebrityEdits';
 
 function App() {
   const [selectedContent, setSelectedContent] = useState(null);
@@ -30,7 +31,8 @@ function App() {
       <Portfolio setSelectedContent={setSelectedContent} />
       <AdsVideos setSelectedContent={setSelectedContent} />
       <LongVideos setSelectedContent={setSelectedContent} /> {/* <--- Naya Section */}
-      
+      <CelebrityEdits setSelectedContent={setSelectedContent} /> {/* <--- Naya Section */}
+
       <Testimonials />
       <ClientRecord />
       <ContactForm />

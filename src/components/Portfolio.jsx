@@ -13,11 +13,8 @@ import img2225Thumbnail from '../assets/IMG2225.png';
 import dudeMagicThumbnail from '../assets/DudeMagic.png';
 
 // --- PREVIOUSLY ADDED THUMBNAILS ---
-// import henryTik from '../assets/henry.png';
-// import henrySwag from '../assets/henry1.png';
-// import halloweenImg from '../assets/hallowen.png';
-// import brandImg from '../assets/brand.png';
-// import henryBFG from '../assets/henryBF.png';
+import trades from '../assets/trades.png';
+import evolve from '../assets/evolve.png';
 import henryC from '../assets/henryCaught.png';
 import henryTrangG from '../assets/HenryTrang.png';
 import henryTrangMain from '../assets/Henry BF Trang Trang.png';
@@ -59,29 +56,32 @@ const Portfolio = () => {
 
     // --- DRIVE VIDEOS WITH MAPPED THUMBNAILS ---
    
+    { 
+  id: 204, 
+  category: 'video', 
+  title: 'Evolve Nanomaxing', 
+  type: 'Video Editing', 
+  driveId: '1NemMRg_4beb8Z_4eY8qCmDXPhxH9X5rJ',localImg: evolve
+},
+
+{ 
+  id: 205, 
+  category: 'video', 
+  title: 'MJ Tradeline', 
+  type: 'Video Editing', 
+  driveId: '1f1GfBKVEWbAaDxWvO2WtxtAMSxp7TyOB',localImg: trades
+},
     { id: 206, category: 'video', title: 'Henry BF Caught', type: 'Short Form', driveId: '1Ew3j_Op-z39mZRPAoP4WCHADuyys571Q', localImg: henryC },
     { id: 207, category: 'video', title: 'Henry BF Trang Trang Giveaway', type: 'Short Form', driveId: '1cQatE3EoNWex6i7lwdk7H21mNz-OGR7y', localImg: henryTrangG },
     { id: 208, category: 'video', title: 'Henry BF Trang Trang', type: 'Short Form', driveId: '1H9eShHC4apYk1XKv2q3sG8ME6_dL6lGh', localImg: henryTrangMain },
     { id: 209, category: 'video', title: 'Henry BF OK Song', type: 'Short Form', driveId: '1tgItPbWaQADUQavlz958YMN-euFCmhCj', localImg: henryOk },
     { id: 210, category: 'video', title: 'Henry BF Mikanika', type: 'Short Form', driveId: '1NnPRS_et6oaNGFvbgd7XfQEUCplhGnKJ', localImg: henryMika },
     { id: 211, category: 'video', title: 'Kronos vs Leone', type: 'Battle Video', driveId: '1tlAkEWuwkduYjpHAAzC9RVnT5KTTLiGk', localImg: kronosLeone },
-    { id: 212, category: 'video', title: 'Leone vs Lonis', type: 'Battle Video', driveId: '12hUg71egcs4RGIJZZ8vuhUYOEp5ccolf', localImg: leoneLonis },
-    { id: 213, category: 'video', title: 'Anime Hook Sale', type: 'Sales Video', driveId: '1nIArOCvezHgjl7srYNpg52kD-wdSEh3T', localImg: animeHook },
-    { id: 214, category: 'video', title: 'Kids Hook Sale', type: 'Sales Video', driveId: '1oqgNGd2NUPtCjTGxYmzOhc96oi1y7834', localImg: kidsHook },
-    { id: 215, category: 'video', title: 'Brando Hook Sales', type: 'Sales Video', driveId: '1YMkE3EJRDNuXlsp6oAnLtP93Pg7iJf82', localImg: brandoHookThumb },
-    { id: 216, category: 'video', title: 'L-Drago vs Pegasus', type: 'Battle Video', driveId: '1Wj7hXUtY7weKtCKNBYnrKxGslBOG9FEU', localImg: ldragoPegasusThumb },
-    { id: 217, category: 'video', title: 'Text Hook Sales', type: 'Sales Video', driveId: '1Z1u5Vyug5MHSPbe9GxvkdniNCrV0H7Yz', localImg: textHookThumb },
-    { id: 218, category: 'video', title: 'Brando Unboxing (50s)', type: 'Product Review', driveId: '1hbl1bVmZvB7p2MvfJ7KVkUhF_SJfW6KI', localImg: brandoUnbox50Thumb },
-    { id: 219, category: 'video', title: 'Brando Unboxing (15s)', type: 'Product Review', driveId: '1UUK-tweINaIGIq77lmW7ByjBF6YJNj3p', localImg: brandoUnbox15Thumb },
-    { id: 220, category: 'video', title: 'Pegasus vs Bull', type: 'Battle Video', driveId: '1d3Z0GbHLi1AhR9mJ-bey1PFxmFgPyuhD', localImg: pegasusBullThumb },
-    { id: 221, category: 'video', title: 'Galaxy Pegasus vs Big Bang', type: 'Battle Video', driveId: '1zdwBR3HBL88USR_Lnjy-6ZXAHSUmgWEc', localImg: galaxyPegasusThumb },
-    { id: 222, category: 'video', title: 'Nemesis vs Pegasus', type: 'Battle Video', driveId: '1zu_wywBcSDzLUAcXT4xoaEnEOpfJrjC8', localImg: nemesisPegasusThumb },
+      { id: 222, category: 'video', title: 'Nemesis vs Pegasus', type: 'Battle Video', driveId: '1zu_wywBcSDzLUAcXT4xoaEnEOpfJrjC8', localImg: nemesisPegasusThumb },
     { id: 223, category: 'design', title: 'Halloween Animation', type: 'Post', driveId: '1bDtRKUy8BcCFsei7vEBU9PGVKv4GjFf7', localImg: halloweenAnimThumb },
     { id: 224, category: 'video', title: 'Brando Giveaway #2', type: 'Video Editing', driveId: '17SvGVr2fW9OzXfMYQiTFe5XN7cce1YLQ', localImg: brandoGiveaway2Thumb },
     { id: 225, category: 'video', title: 'Kids Transition (BF)', type: 'Video Editing', driveId: '1_Hpb4hgZNb4EXs9RfB5rgbE1dtIOQMcc', localImg: kidsTransitionThumb },
-    { id: 226, category: 'video', title: 'Chris Battle', type: 'Battle Video', driveId: '11xTaym1TsRx587YkCY73SIE_fZn3mhme', localImg: chrisBattleThumb },
-    { id: 227, category: 'video', title: 'Kids Playing Beyblade', type: 'Voiceover Video', driveId: '1fihjRdmGXbYzvm79kfZflRbFbrBm_fZI', localImg: kidsBeybladeThumb },
-
+  
    
     // --- DESIGN & PHOTOS ---
     { id: 7, category: 'design', title: 'Brand Poster', type: 'Design', driveId: '1ajyOFBl2rLSrQtn4aG0yCXYAOmCrxJGP', localImg: dudeMagicThumbnail },
