@@ -3,42 +3,29 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X, Image as ImageIcon, Camera } from 'lucide-react';
 
 // --- IMAGE ASSETS ---
-import citrusImg from '../assets/Citrus Champ_Cleaner_2oz.jpg';
-import lavenderImg from '../assets/Lavender Legend_Deodorizer_render_2oz.jpg';
-import petalImg from '../assets/Petal Power_Deodorizer_render_4oz.jpg';
-import lifeImg from '../assets/life.png'; 
-import openingHookImg from '../assets/openinghook.png'; 
-import img1852Thumbnail from '../assets/IMG1852.png'; 
-import img2225Thumbnail from '../assets/IMG2225.png';
-import dudeMagicThumbnail from '../assets/DudeMagic.png';
+import citrusImg from '../assets/Citrus Champ_Cleaner_2oz.jpg';//Done
+import lavenderImg from '../assets/Lavender Legend_Deodorizer_render_2oz.jpg';//Done
+import petalImg from '../assets/Petal Power_Deodorizer_render_4oz.jpg';//Done
+import lifeImg from '../assets/life.png'; //Done
+import openingHookImg from '../assets/openinghook.png'; //Done
+import dudeMagicThumbnail from '../assets/DudeMagic.png';//Done
 
 // --- PREVIOUSLY ADDED THUMBNAILS ---
-import trades from '../assets/trades.png';
-import evolve from '../assets/evolve.png';
-import henryC from '../assets/henryCaught.png';
-import henryTrangG from '../assets/HenryTrang.png';
-import henryTrangMain from '../assets/Henry BF Trang Trang.png';
-import henryOk from '../assets/Henry BF OK Song.png';
-import henryMika from '../assets/Henry BF Mikanika.png';
-import kronosLeone from '../assets/Kronos vs Leone.png';
-import leoneLonis from '../assets/Leone vs Lonis.png';
-import animeHook from '../assets/Anime Hook Sale.png';
-import kidsHook from '../assets/Kids Hook Sale.png';
+import trades from '../assets/trades.png';//Done
+import evolve from '../assets/evolve.png';//Done
+import henryC from '../assets/henryCaught.png';//Done
+import henryTrangG from '../assets/HenryTrang.png';//Done
+import henryTrangMain from '../assets/Henry BF Trang Trang.png';//Done
+import henryOk from '../assets/Henry BF OK Song.png';//Done
+import henryMika from '../assets/Henry BF Mikanika.png';//Done
+import kronosLeone from '../assets/Kronos vs Leone.png';//Done
+
 
 // --- NEWLY ADDED THUMBNAILS ---
-import brandoHookThumb from '../assets/Brando Hook Sales.png';
-import ldragoPegasusThumb from '../assets/L-Drago vs Pegasus.png';
-import textHookThumb from '../assets/Text Hook Sales.png';
-import brandoUnbox50Thumb from '../assets/Brando Unboxing 50s.png';
-import brandoUnbox15Thumb from '../assets/Brando Unboxing 15s.png';
-import pegasusBullThumb from '../assets/Pegasus vs Bull.png';
-import galaxyPegasusThumb from '../assets/Galaxy Pegasus vs Big Bang.png';
-import nemesisPegasusThumb from '../assets/Nemesis vs Pegasus.png';
-import halloweenAnimThumb from '../assets/Halloween Animation.png';
-import brandoGiveaway2Thumb from '../assets/Brando Giveaway 2.png';
-import kidsTransitionThumb from '../assets/Kids Transition BF.png';
-import chrisBattleThumb from '../assets/Chris Battle.png';
-import kidsBeybladeThumb from '../assets/Kids Playing Beyblade.png';
+import nemesisPegasusThumb from '../assets/Nemesis vs Pegasus.png';//Done
+import halloweenAnimThumb from '../assets/Halloween Animation.png';//Done
+import brandoGiveaway2Thumb from '../assets/Brando Giveaway 2.png';//Done
+import kidsTransitionThumb from '../assets/Kids Transition BF.png';//Done
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
