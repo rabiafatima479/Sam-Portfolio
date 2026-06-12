@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import samImg from '../assets/sam.png'; 
+import samImg from '../assets/sam.jpeg'; 
 
 const Hero = () => {
   // Smooth Scroll Function
